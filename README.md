@@ -1,3 +1,3 @@
-# Blackjack - A blackjack simulator tool
+# Cytemplate CLI
 
-A CLI tool to simulate any number of blackjack games. The rules are the same as Las Vegas casinos in order to simulate that environment. The goal of this app is to generate statistical proof that certain strategies can be profitable.
+Cython template for creating command line applications.
