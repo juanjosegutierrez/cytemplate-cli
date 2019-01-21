@@ -19,7 +19,7 @@ def main():
     t2 = time.time()
     python_add(args_dict['number'])
     t3 = time.time()
-    
+
     sys.stdout.write('Cython is {}x times faster.\n'.format((t3-t2)/(t1-t0)))
 
 

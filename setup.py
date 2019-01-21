@@ -24,9 +24,9 @@ def setup_package():
         if use_cython:
             ext = '.pyx'
         else:
-            ext = '.c'      
+            ext = '.c'
         extensions.append(Extension(name, [path + ext]))
-    
+
     if use_cython:
         extensions = cythonize_extensions(extensions)
 
@@ -47,6 +47,7 @@ def setup_package():
             ]
         }
     )
+
 
 if __name__ == '__main__':
     setup_package()
